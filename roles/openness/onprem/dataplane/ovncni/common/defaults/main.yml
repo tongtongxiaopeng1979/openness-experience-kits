@@ -13,7 +13,7 @@ dockerimage_files_to_rm:
 huge_dir: /dev/hugepages
 ovs_dir: /var/run/openvswitch
 
-ovs_dpdk: true
+ovs_dpdk: false 
 dpdk_version: 18.11.2
 dpdk_install_dir: /opt/dpdk-{{ dpdk_version }}
 
