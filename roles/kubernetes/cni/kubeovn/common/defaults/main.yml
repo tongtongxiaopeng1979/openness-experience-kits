@@ -12,8 +12,10 @@ ovn_version:
 
 dpdk_version: "18.11.2"
 
-kubeovn_repo: https://github.com/alauda/kube-ovn.git
-kubeovn_raw_file_repo: https://raw.githubusercontent.com/alauda/kube-ovn
+#kubeovn_repo: https://github.com/alauda/kube-ovn.git
+#kubeovn_raw_file_repo: https://raw.githubusercontent.com/alauda/kube-ovn
+kubeovn_repo: https://gitee.com/mirrors/Kube-OVN.git
+kubeovn_raw_file_repo: https://gitee.com/mirrors/Kube-OVN/raw
 kubeovn_destdir: /tmp/kube-ovn
 
 kubeovn_cleanup_paths:
