@@ -26,8 +26,8 @@
     - role: git_repo
     - role: golang
     - role: docker
-    - role: kubernetes/master
-    - role: kubernetes/cni
+#    - role: kubernetes/master
+#    - role: kubernetes/cni
     - role: openness/network_edge/master
     - role: cnca/master
     - role: ngc_test/master
@@ -50,6 +50,6 @@
     - role: git_repo
     - role: golang
     - role: docker
-    - role: kubernetes/worker
-    - role: kubernetes/cni
+ #   - role: kubernetes/worker
+ #   - role: kubernetes/cni
     - role: openness/network_edge/worker
