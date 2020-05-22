@@ -30,7 +30,7 @@
 #    - role: kubernetes/cni
     - role: openness/network_edge/master
     - role: cnca/master
-    - role: ngc_test/master
+#    - role: ngc_test/master
 
 - hosts: edgenode_group
   vars:
